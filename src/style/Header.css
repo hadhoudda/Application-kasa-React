@@ -1,0 +1,23 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   margin: 100px, 40px, 100px, 40px;
+}
+.logo{
+    width: 210px;
+    height: 68px;
+}
+a{
+    color:#FF6060 ;
+    font-size: 24px;
+    font: Montserrat;
+    text-decoration: none;
+}
+a :focus{
+    text-decoration:underline;
+}
+.list-header{
+    list-style: none;
+    display: flex;
+    gap: 57px;
+}
