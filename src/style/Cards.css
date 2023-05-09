@@ -1,0 +1,11 @@
+.cards{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+.cards img {
+	width: 100%;
+    object-fit: cover;
+}
