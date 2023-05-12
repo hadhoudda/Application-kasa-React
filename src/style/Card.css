@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400;500;600;700&display=swap');
 
-.card{
+.props{
     background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%); 
     background-color: brown;
     border-radius: 10px;
