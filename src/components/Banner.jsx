@@ -1,12 +1,10 @@
 import '../style/Banner.css';
-import Header from './Header';
-import Cards from './Cards';
+import Home from './Home';
 
 function Banner(){
     return(
         <div>
-            <Header/>
-            <Cards/>
+            <Home/>
         </div>
     )
 }
