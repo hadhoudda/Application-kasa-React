@@ -1,8 +1,5 @@
- /* <img src={vague} alt='la vague frappe les rochers'/> */
-
- /* import vague from '../assets/vague.png'; */
 .cards{
-	width: 100%;
+	
     background-color: #F6F6F6;
     padding: 50px;
     margin-top: 43px;
@@ -11,4 +8,8 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 60px;
 	grid-row-gap: 50px;
+}
+.img-header{
+	height: 223px;
+	margin-top: 28px;	
 }

@@ -1,8 +1,10 @@
 import React,{useState,useEffect, Fragment} from 'react';
 import '../style/Home.css';
+import vague from '../assets/vague.png';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
+
 
 function Home() {
   const [data,setData]=useState([]);
@@ -15,6 +17,7 @@ function Home() {
        }
     }
     )
+    //console.log(response)
     const cards = await response.json();
     setData(cards)
   }
@@ -24,6 +27,7 @@ function Home() {
   return (
     <>
       <Header/>
+      <img className='img-header' src={vague} alt='la vague frappe les rochers'/>
       <div className="cards">
         {
           data && data.length>0 && data.map((apart)=><Card props={apart} key={apart.id}/>)
