@@ -1,13 +1,18 @@
 import React,{ useState,useEffect, Fragment} from 'react';
+import { useParams } from 'react-router-dom';
 import '../style/Details.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-//import Description from '../components/Description';
-//import Gallery from '../components/Gallery';
+import Description from '../components/Description';
+import Pictures from '../components/Pictures';
 import Title from '../components/Title';
+import Host from '../components/Host';
+
+
 
 function  Details(){
-  const [data,setData]=useState([]);
+  let userId = useParams()
+  const [location,setLocation]=useState([]);
   const getData= async ()=>{
     const response = await fetch('../data.json'
     ,{
@@ -17,10 +22,13 @@ function  Details(){
        }
     }
     )
-    console.log(response)
-    const card = await response.json()
-    setData(card)
+    //console.log(response)
+    const cards = await response.json()
+    const location = cards.find((card)=> card.id === userId.id)
+    setLocation(location)
+    //console.log(location.host.name)
   }
+
   useEffect(()=>{
     getData()
   },[])
@@ -28,24 +36,15 @@ function  Details(){
     <>
       <Header/>
       <div>
-      {
-        console.log(window.location.href)
-        }
-      {
-        console.log(window.location.pathname)
-        }
-      {
-        console.log(data)
-        }
-      {
-        data && data.length>0 && data.map((apart)=><Title props={apart} key={apart.id}/>)
-        }
+        <Pictures locationPictures={location?.pictures} />
+        <Title locationTitle={location?.title} key={location?.id}/>
+        <Host locationHostPicture={location?.host?.picture} locationHostName={location?.host?.name} /> 
+        <Description locationDescription={location?.description} />
       </div>
       <Footer/>
 
     </>
   );
 }
-
 
 export default Details

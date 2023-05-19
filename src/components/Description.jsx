@@ -1,9 +1,9 @@
 
 
-function Description(card){
+function Description({locationDescription}){
     return (
         <div>
-            <p className='description-card'>{card.props.description}</p>
+            <p className='description-card'>{locationDescription}</p>
         </div>
     )
 }
