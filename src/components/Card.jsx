@@ -1,12 +1,12 @@
 import '../style/Card.css';
 import { Link } from 'react-router-dom';
 
-function Card(card){
+function Card({card}){
     return( 
     <div className='card'>
-      < Link to = {`details/${card.props.id}`} >
-        <img src={card.props.cover}  alt={card.props.title}/>
-        <p className='title-card'> {card.props.title}</p>
+      < Link to = {`details/${card.id}`} >
+        <img src={card.cover}  alt={card.title}/>
+        <p className='title-card'> {card.title}</p>
       </Link>
     </div>
     )

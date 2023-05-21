@@ -30,7 +30,7 @@ function Home() {
       <img className='img-header' src={vague} alt='la vague frappe les rochers'/>
       <div className="cards">
         {
-          data && data.length>0 && data.map((apart)=><Card props={apart} key={apart.id}/>)
+          data && data.length>0 && data.map((apart)=><Card card={apart} key={apart.id}/>)
         }
       </div>
       <Footer/>

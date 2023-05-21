@@ -26,7 +26,6 @@ function  Details(){
     const cards = await response.json()
     const location = cards.find((card)=> card.id === userId.id)
     setLocation(location)
-    //console.log(location.host.name)
   }
 
   useEffect(()=>{
@@ -36,8 +35,13 @@ function  Details(){
     <>
       <Header/>
       <div>
-        <Pictures locationPictures={location?.pictures} />
-        <Title locationTitle={location?.title} key={location?.id}/>
+        <div className="carrousel">
+          {
+            location?.pictures && location?.pictures.length>0 
+            && location?.pictures.map((picture)=><Pictures locationPictures={picture} key={location?.pictures.indexOf(picture)}/>)
+          }
+        </div>
+        <Title locationTitle={location?.title} />
         <Host locationHostPicture={location?.host?.picture} locationHostName={location?.host?.name} /> 
         <Description locationDescription={location?.description} />
       </div>
