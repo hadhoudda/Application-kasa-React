@@ -1,12 +1,11 @@
+import '../style/pictures.css';
 
-
-function Pictures({locationPictures}){
-    return (
-        <div>
-           
-            <img className='pictures-card' src={locationPictures}  alt={"location Pictures in detail"}/>
+function Carousel({locationPictures}){
+    return (           
+        <div className="container">
+            <img src={locationPictures}  alt={"location Pictures in detail"}/>
         </div>
     )
 }
 
-export default Pictures;
+export default Carousel;

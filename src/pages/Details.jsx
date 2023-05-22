@@ -4,7 +4,8 @@ import '../style/Details.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Description from '../components/Description';
-import Pictures from '../components/Pictures';
+//import Pictures from '../components/Description';
+import Carousel from '../components/Carousel';
 import Title from '../components/Title';
 import Host from '../components/Host';
 
@@ -22,7 +23,6 @@ function  Details(){
        }
     }
     )
-    //console.log(response)
     const cards = await response.json()
     const location = cards.find((card)=> card.id === userId.id)
     setLocation(location)
@@ -34,17 +34,17 @@ function  Details(){
   return (
     <>
       <Header/>
-      <div>
-        <div className="carrousel">
-          {
-            location?.pictures && location?.pictures.length>0 
-            && location?.pictures.map((picture)=><Pictures locationPictures={picture} key={location?.pictures.indexOf(picture)}/>)
-          }
-        </div>
+      
+        
+          
+            <Carousel locationPictures={location?.pictures} />
+          
+         
+       
         <Title locationTitle={location?.title} />
         <Host locationHostPicture={location?.host?.picture} locationHostName={location?.host?.name} /> 
         <Description locationDescription={location?.description} />
-      </div>
+      
       <Footer/>
 
     </>
