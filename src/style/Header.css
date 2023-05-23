@@ -1,4 +1,4 @@
-.header{
+ .header{
    display: flex;
    justify-content: space-between;
    margin: 100px, 40px, 100px, 40px;
@@ -7,7 +7,7 @@
     width: 210px;
     height: 68px;
 }
-a{
+/*a{
     color:#FF6060 ;
     font-size: 24px;
     font: Montserrat;
@@ -20,4 +20,22 @@ a :focus{
     list-style: none;
     display: flex;
     gap: 57px;
+} */
+
+.nav-active {
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: #ff6060;
+    width: 50%;
+    margin-left: 10%;
+    cursor: "pointer";
+    font-size: 130%;
+    font-family: "arial";
+}
+
+.navbar {
+    width: 50%;
+    text-align: right;
 }

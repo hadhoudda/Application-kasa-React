@@ -1,16 +1,34 @@
-import logo from '../assets/logo.webp'
-import '../style/Header.css'
+import logo from "../assets/logo.webp";
+import "../style/Header.css";
+import { NavLink } from "react-router-dom";
 
-function Header(){
+function Header() {
     return (
-        <div className='header'>
-            <img src={logo} className='logo' alt='logo de kasa' />
-            <ul className='list-header'>
-                <li><a href="home.html">Accueil</a></li>
-                <li><a href="A-propos.html">A Propos</a></li>
-            </ul>
+        <div className="header">
+            <img src={logo} className="logo" alt="logo de kasa" />
+            <nav className="navbar">
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-active nav-link" : "nav-link"
+                    }
+                    end="/"
+                    to="/"
+                >
+                    Accueil
+                </NavLink>
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-active nav-link" : "nav-link"
+                    }
+                    end="about"
+                    to="/about"
+                >
+                    {" "}
+                    A Propos
+                </NavLink>
+            </nav>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;

@@ -1,6 +1,6 @@
 import React,{useState,useEffect, Fragment} from 'react';
 import '../style/Home.css';
-import vague from '../assets/vague.png';
+import vague from '../assets/vague.webp';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from '../components/Card';

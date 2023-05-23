@@ -1,7 +1,15 @@
 import '../style/About.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function About(){
-    return true
+    return (
+        <>
+            <Header/>
+            <Footer/>
+        </>
+        
+        )
 }
 
 export default About
