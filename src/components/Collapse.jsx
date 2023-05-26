@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import ChevronDown from "../assets/Chevron_Down.svg";
 import ChevronUp from "../assets/Chevron_Up.svg";
@@ -41,29 +40,29 @@ const Collapse = ({ content }) => {
 };
 
 export default Collapse;
-=======
-import React,{ useState} from 'react';
-import '../style/collapse.css';
 
-const Collapse = ({titleCollapse}, {txtCollapse}) =>{
+// import React,{ useState} from 'react';
+// import '../style/collapse.css';
+
+// const Collapse = ({titleCollapse}, {txtCollapse}) =>{
       
-        const [isOpen, setIsOpen] = useState(false)
+//         const [isOpen, setIsOpen] = useState(false)
      
-        return isOpen ? (
-            <div className='lmj-cart'>
-                <i className="fa-sharp fa-solid fa-angle-up" onClick={() => setIsOpen(false)}></i>
-                <div>
-                    <h3> {titleCollapse} </h3>
-                    <p> {txtCollapse} </p>
-                </div>
-            </div>
-        ) : (
-            <i className="fa-solid fa-angle-down" onClick={() => setIsOpen(true)}></i>
+//         return isOpen ? (
+//             <div className='lmj-cart'>
+//                 <i className="fa-sharp fa-solid fa-angle-up" onClick={() => setIsOpen(false)}></i>
+//                 <div>
+//                     <h3> {titleCollapse} </h3>
+//                     <p> {txtCollapse} </p>
+//                 </div>
+//             </div>
+//         ) : (
+//             <i className="fa-solid fa-angle-down" onClick={() => setIsOpen(true)}></i>
             
 
-        )
-    }
+//         )
+//     }
 
 
-export default Collapse
->>>>>>> 49fb625b8af0ce985187120c9781108785c439e7
+// export default Collapse
+
