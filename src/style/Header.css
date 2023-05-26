@@ -1,26 +1,28 @@
  .header{
    display: flex;
    justify-content: space-between;
-   margin: 100px, 40px, 100px, 40px;
+   margin-bottom: 50px;
 }
+
 .logo{
     width: 210px;
     height: 68px;
 }
-/*a{
-    color:#FF6060 ;
-    font-size: 24px;
-    font: Montserrat;
-    text-decoration: none;
-}
-a :focus{
-    text-decoration:underline;
-}
-.list-header{
-    list-style: none;
+
+.navbar{
     display: flex;
-    gap: 57px;
-} */
+    align-items: flex-end;
+    width: 30%;
+}
+.nav-active,
+.nav-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
 
 .nav-active {
     text-decoration: underline;
@@ -35,7 +37,3 @@ a :focus{
     font-family: "arial";
 }
 
-.navbar {
-    width: 50%;
-    text-align: right;
-}
