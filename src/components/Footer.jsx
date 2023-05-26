@@ -1,7 +1,8 @@
-
-
-function Footer(){
-    return true
+function Footer() {
+    return (
+        <div>
+            <p>FOOTER</p>
+        </div>
+    );
 }
-
-export default Footer
+export default Footer;

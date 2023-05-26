@@ -1,15 +1,31 @@
-import '../style/About.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import "../style/About.css";
+import questions from "../data/questions.json";
+import Collapse from "../components/Collapse";
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 
-function About(){
+function About() {
     return (
         <>
-            <Header/>
-            <Footer/>
+            <Header />
+            <Banner
+                    content={{
+                        imgBan: false
+                    }}
+                />
+            <section className="about-section">
+                <div className="about-container">
+                    {questions.map((question) => {
+                        return (
+                            <Collapse content={question} key={question.id} />
+                        );
+                    })}
+                </div>
+            </section>
+            <Footer />
         </>
-        
-        )
+    );
 }
 
-export default About
+export default About;

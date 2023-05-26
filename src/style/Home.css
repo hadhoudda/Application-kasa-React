@@ -1,15 +1,20 @@
 .cards{
 	
-    background-color: #F6F6F6;
-    padding: 50px;
-    margin-top: 43px;
-    border-radius: 25px;
-	display: grid;
+    	background-color: #F6F6F6;
+    	padding: 50px;
+    	margin-top: 43px;
+    	border-radius: 25px;
+     	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 60px;
 	grid-row-gap: 50px;
 }
-.img-header{
-	height: 223px;
-	margin-top: 28px;	
-}
+
+
+@media screen and (max-width: 760px){
+	.cards{
+	display: flex;
+    	flex-wrap: wrap;
+    	gap: 60px;
+	}
+  }

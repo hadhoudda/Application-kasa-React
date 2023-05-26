@@ -1,15 +1,15 @@
-import '../style/NotFound.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import "../style/NotFound.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const NotFound = ()=> {
+const NotFound = () => {
     return (
         <>
-            <Header/>
-            <Footer/>
+            <Header />
+            PAS TROUVE
+            <Footer />
         </>
-        
-        )
-}
+    );
+};
 
-export default NotFound
+export default NotFound;
