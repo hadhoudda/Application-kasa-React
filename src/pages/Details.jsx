@@ -5,9 +5,9 @@ import "../style/Details.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Collapse from "../components/Collapse";
-
 import Carousel from "../components/Carousel";
 import Title from "../components/Title";
+import Local from "../components/Local";
 import Host from "../components/Host";
 import Tag from "../components/Tag";
 import Rating from "../components/Rating";
@@ -41,41 +41,47 @@ const Details = () => {
     return (
         <>
             <Header />
-            <div className="carousel">
+            <section className="carousel">
                 <Carousel locationPictures={location?.pictures} />
-            </div>
-
-
-            <Title locationTitle={location?.title} />
-            <div className="host-infos">
-                <div>
+            </section>
+            <section className="info">
+                {/*======== info d'appartement ======== */}
+                <div className="info-apartement">
+                    <Title locationTitle={location?.title} />
+                    <Local locationLocal={location?.location} />
+                    <div className="tag-container">
+                        {location?.tags?.map((tag, index) => {
+                            return <Tag value={tag} key={index} />;
+                        })}
+                    </div>
+                </div>
+                {/*======== info de locataire ======== */}
+                <div className="host-infos">
+                    <Host
+                        locationHostPicture={location?.host?.picture}
+                        locationHostName={location?.host?.name}
+                        />
                     <Rating rating={location?.rating} />
                 </div>
-                <Host
-                    locationHostPicture={location?.host?.picture}
-                    locationHostName={location?.host?.name}
-                />
-            </div>
-            <div className="tag-container">
-                {location?.tags?.map((tag, index) => {
-                    return <Tag value={tag} key={index} />;
-                })}
-            </div>
-            {/*<Description locationDescription={location?.description} />*/}
-            <div className="more-infos">
-                <Collapse
-                    content={{
-                        title: "Description",
-                        reply: location?.description,
-                    }}
-                />
-                <Collapse
-                    content={{
-                        title: "Équipements",
-                        equipments: location?.equipments,
-                    }}
-                />
-            </div>
+            </section>    
+            <section className="more-infos">
+                <div className="collapse-info">
+                    <Collapse
+                        content={{
+                            title: "Description",
+                            reply: location?.description,
+                        }}
+                    />
+                </div>
+                <div className="collapse-info">
+                    <Collapse
+                        content={{
+                            title: "Équipements",
+                            equipments: location?.equipments,
+                        }}
+                    />
+                </div>
+            </section>
             <Footer />
         </>
     );

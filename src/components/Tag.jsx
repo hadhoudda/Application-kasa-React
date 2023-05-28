@@ -1,3 +1,4 @@
+import '../style/Tag.css';
 import React from "react";
 
 const Tag = ({ value }) => {

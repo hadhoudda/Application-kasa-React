@@ -1,13 +1,12 @@
-
+import '../style/Host.css';
 
 function Host({locationHostPicture ,locationHostName}){
     return( 
-        <figure className='title-picture'>
-          <img src={locationHostPicture} alt='location' />
+        <figure className='name-host'>
           <figcaption> {locationHostName} </figcaption>
+          <img className="img-host" src={locationHostPicture} alt='location' />
         </figure>
     )
 }
-
 
 export default Host

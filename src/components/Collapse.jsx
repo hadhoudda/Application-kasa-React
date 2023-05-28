@@ -1,3 +1,4 @@
+import '../style/collapse.css';
 import React, { useState } from "react";
 import ChevronDown from "../assets/Chevron_Down.svg";
 import ChevronUp from "../assets/Chevron_Up.svg";
@@ -7,10 +8,10 @@ const Collapse = ({ content }) => {
     const { title, reply, equipments } = content;
     return (
         <div className="accordeon">
-            <header className="accordeon-header">
+            <header className="btn-chevron">
                 <h3>{title}</h3>
-                <button
-                    className="btn-chevron"
+                <div
+                    
                     // Toggle si vrai devient faux si faux devient vrai
                     onClick={() => setShowReply(!showReply)}
                     // Si montrer texte alors ChevronUp
@@ -21,7 +22,7 @@ const Collapse = ({ content }) => {
                         alt="close/open"
                         className="chevron"
                     />
-                </button>
+                </div>
             </header>
             {showReply && reply && (
                 <div className="about-content">
@@ -31,7 +32,12 @@ const Collapse = ({ content }) => {
             {showReply && equipments && (
                 <div className="about-content">
                     {equipments.map((equipment, index) => {
-                        return <span key={index}>{equipment}</span>;
+                        return (
+                            <ul className="list-equipment">
+                                <li className="list-equipment" key={index}>{equipment}</li>
+                            </ul> 
+                        )
+                         
                     })}
                 </div>
             )}

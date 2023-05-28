@@ -1,12 +1,8 @@
-
+import '../style/Title.css';
 
 function Title({locationTitle}){
     return( 
-    <div className='title-picture'>
-        <p > {locationTitle}</p>
-        
-
-    </div>
+        <h1 className='title-picture' > {locationTitle}</h1>
     )
 }
 

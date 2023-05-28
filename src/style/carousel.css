@@ -1,7 +1,6 @@
 .carousel{
     position: relative;
-    border-radius: 25px;
-   
+    border-radius: 25px;   
 }
 
 .container{
@@ -15,5 +14,9 @@
     width: 100%;
     mix-blend-mode: normal;
     border-radius: 25px;
+}
+.arrow-right,
+.arrow-left{
+    color: white;
 }
 
