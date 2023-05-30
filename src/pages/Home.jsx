@@ -30,11 +30,11 @@ function Home() {
                         imgBan: true,
                     }}
                 />
-            <div className="cards">
+            <section className="cards">
                 {data &&
                     data.length > 0 &&
                     data.map((apart) => <Card card={apart} key={apart.id} />)}
-            </div>
+            </section>
             <Footer />
         </>
     );

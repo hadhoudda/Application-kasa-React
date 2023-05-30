@@ -5,7 +5,7 @@ function Card({card}){
     return( 
     <div className='card'>
       <Link to = {`details/${card.id}`} >
-        <img src={card.cover}  alt={card.title}/>
+        <img src={card.cover}  alt={"l'image de " + card.title}/>
         <p className='title-card'> {card.title}</p>
       </Link>
     </div>

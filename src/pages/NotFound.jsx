@@ -7,12 +7,12 @@ const NotFound = () => {
     return (
         <>
             <Header />
-            <div className="notfound">
+            <section className="notfound">
                 <p className="number">404</p>
                 <p className="txt-notfound">Oups! La page que vous demandez n'existe pas.</p>
                 <Link to="/"><p className="txt-retour">Retourner sur la page d'accueil</p></Link>
 
-            </div>
+            </section>
             <Footer />
         </>
     );

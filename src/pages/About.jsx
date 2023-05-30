@@ -14,14 +14,12 @@ function About() {
                         imgBan: false
                     }}
                 />
-            <section className="about-section">
-                <div className="about-container">
-                    {questions.map((question) => {
-                        return (
-                            <Collapse content={question} key={question.id} />
+            <section className="about-container">
+                {questions.map((question) => {
+                    return (
+                        <Collapse content={question} key={question.id} />
                         );
                     })}
-                </div>
             </section>
             <Footer />
         </>

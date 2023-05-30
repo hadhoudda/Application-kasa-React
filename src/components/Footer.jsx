@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer>
             <Link to="/"><img src={logo_black} className="logo-footer" alt="logo de kasa"/></Link>
-            <p className="txt-footer"> @ 2020 Kasa. All rights reserved </p>
+            <span className="txt-footer"> @ 2020 Kasa. All rights reserved </span>
         </footer>
     );
 }
