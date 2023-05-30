@@ -1,17 +1,24 @@
-.footer{
+footer{
       background-color: black;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 60px;
-      margin-bottom: 0;
-      margin-top: 50px;
+      padding-bottom: 20px;
+      margin: 50px -100px  0 -100px; 
 }
-
-
 
 .txt-footer{
       font-weight: 500;
       font-size: 24px;
       color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px){
+	.txt-footer{
+            font-size: 12px;
+      }
+      footer{
+            margin: 50px -20px  0 -20px; 
+      }
 }

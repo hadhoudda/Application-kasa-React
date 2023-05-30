@@ -20,3 +20,36 @@
     color: white;
 }
 
+.arrow{
+    position: absolute;
+    cursor: pointer;
+    font-size: 500%;
+    color:white;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-left,
+.arrow-right{
+    padding: 20px;
+}
+.arrow-left:hover,
+.arrow-right:hover{
+    transform:scale(1.2);
+    transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width: 768px){
+	.container{
+        height: 255px;
+    }
+   
+    .arrow{
+        font-size: 200%;
+    }
+
+  }
+

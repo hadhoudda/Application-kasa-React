@@ -5,7 +5,9 @@ import { NavLink, Link } from "react-router-dom";
 function Header() {
     return (
         <div className="header">
-            <Link to="/"><img src={logo} className="logo" alt="logo de kasa"/></Link>
+            <div className="img-logo">
+                <Link to="/"><img src={logo} className="logo" alt="logo de kasa"/></Link>
+            </div>
             <nav className="navbar">
                 <NavLink
                     className={({ isActive }) =>

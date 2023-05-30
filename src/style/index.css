@@ -1,13 +1,15 @@
 body{
   max-width: 1440px ;
-  padding:0 100px 0 100px;
+  min-width: 320px;
+  padding:40px 100px 0px 100px;
   font-family: 'Montserrat';
   font-style: normal;
 }
+
 img{
   object-fit: cover;
-  
 }
+
 a{
   text-decoration: none;
 }
@@ -15,3 +17,14 @@ a{
 ul{
   list-style-type: none;
 }
+
+p{
+  margin: 0;
+}
+
+@media screen and (max-width: 768px){
+	body{
+    padding:20px 20px 0 20px;
+  }
+
+  }

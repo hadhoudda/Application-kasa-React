@@ -1,7 +1,8 @@
  .header{
    display: flex;
    justify-content: space-between;
-   margin-bottom: 50px;
+   margin-bottom: 25px;
+   width: 100%;
 }
 
 .logo{
@@ -12,27 +13,40 @@
 .navbar{
     display: flex;
     align-items: flex-end;
-    width: 30%;
+    width: 40%;
+    padding: 10px;
 }
+
 .nav-active,
 .nav-link{
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 142.6%;
     color: #FF6060;
+    cursor: "pointer";
+    width: 50%;
+    text-align: right;
 }
 
 .nav-active {
     text-decoration: underline;
 }
 
-.nav-link {
-    color: #ff6060;
-    width: 50%;
-    margin-left: 10%;
-    cursor: "pointer";
-    font-size: 130%;
-    font-family: "arial";
-}
+
+@media screen and (max-width: 768px){
+    .header{
+        margin-bottom: 15px;
+    }
+	.logo{
+        width: 110px;
+        height: 35px;
+    }
+    .navbar{
+        width: 50%;
+        height: 25px;
+    }
+    .nav-link,
+    .nav-active{
+        font-size: 12px;
+    }
+  }
 

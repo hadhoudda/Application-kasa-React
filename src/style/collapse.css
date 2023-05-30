@@ -14,7 +14,6 @@ h3{
       color:white;
 }
 
-
 .chevron{
       position: relative;
       top: 50%;
@@ -37,3 +36,24 @@ h3{
       margin: 0;
       padding-left: 0;
 }
+
+@media screen and (max-width: 768px){
+	.btn-chevron{
+            height: 30px;
+            border-radius: 5px;
+            padding-bottom: 8px;
+      }
+      h3{
+            font-size: 13px;
+      }
+      .chevron{
+            height: 9px;
+            width:16px;
+      }
+      .about-content{
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 10px;
+      }
+
+  }

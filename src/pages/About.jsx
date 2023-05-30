@@ -9,7 +9,7 @@ function About() {
     return (
         <>
             <Header />
-            <Banner
+            <Banner 
                     content={{
                         imgBan: false
                     }}

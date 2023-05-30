@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <div className="footer">
+        <footer>
             <Link to="/"><img src={logo_black} className="logo-footer" alt="logo de kasa"/></Link>
             <p className="txt-footer"> @ 2020 Kasa. All rights reserved </p>
-        </div>
+        </footer>
     );
 }
 export default Footer;

@@ -5,7 +5,7 @@ import imgAbout from "../assets/nature.webp";
 function Banner({ content }) {
     const {imgBan ,title} = content ;
     return (
-        <div className="banner">
+        <div className="banner" >
             <h1 className="title-header">{title}</h1>
             <img
                 className="img-header"

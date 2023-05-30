@@ -15,7 +15,6 @@
       text-align: center;
       top: 45%;
       z-index: 1;
-      
 }
 
 .img-header{
@@ -26,3 +25,12 @@
       position:absolute;
       bottom:0% ;
 }
+
+@media screen and (max-width: 768px){
+	.title-header{
+            font-size: 24px;
+      }
+      .banner{
+            height: 111px;
+      }       
+  }

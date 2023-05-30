@@ -1,5 +1,5 @@
 .card{
-    z-index: 3;
+    z-index: 2;
     border-radius: 10px;
     height: 350px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
@@ -17,9 +17,21 @@
     position: relative;
     left: 5.88%;
     bottom: 25.82%;
-    width: 90%;
+    width: 80%;
     color: white;
     font-size: 18px;
-    font-weight: 500;
-   
+    font-weight: 500; 
+}
+
+@media screen and (max-width: 768px) {
+  
+    
+    .card{
+        height: 225px;
+        width: 100%;
+    }
+    .title-card{
+        bottom: 30%;
+    }
+    
 }
