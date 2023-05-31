@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 
 function Card({card}){
     return( 
-    <div className='card' id="overlay">
+    <div className='card'>
       <Link to = {`details/${card.id}`} >
-        <img src={card.cover}  alt={"l'image de " + card.title}/>
-        <p className='title-card'> {card.title}</p>
+      <div className="overlay"></div>
+        <img className='img-card' src={card.cover}  alt={"l'image de " + card.title}/>
+        <span > {card.title}</span>
       </Link>
     </div>
     )

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
 import "../style/Home.css";
-
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
@@ -30,11 +29,11 @@ function Home() {
                         imgBan: true,
                     }}
                 />
-            <section className="cards">
+            <main className="cards">
                 {data &&
                     data.length > 0 &&
                     data.map((apart) => <Card card={apart} key={apart.id} />)}
-            </section>
+            </main>
             <Footer />
         </>
     );

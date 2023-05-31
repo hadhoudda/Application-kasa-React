@@ -10,7 +10,13 @@
 	grid-row-gap: 50px;
 }
 
-
+@media screen and (max-width:1280px) {
+	.cards{
+	    grid-template-columns: 1fr 1fr;
+	    grid-gap: 30px;
+	    padding: 20px;
+	}
+  }
 @media screen and (max-width: 768px){
 	.cards{
 		background-color: white;
