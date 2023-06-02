@@ -1,4 +1,5 @@
 import '../style/Title.css';
+import React from "react";
 
 function Title({locationTitle}){
     return( 

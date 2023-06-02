@@ -27,7 +27,6 @@ const Details = () => {
         const cards = await response.json();
         const location = cards.find((card) => card.id === userId.id);
         setLocation(location);
-        //console.log(imgPrev)
     };
 
     useEffect(() => {
@@ -87,8 +86,4 @@ const Details = () => {
     );
 };
 
-
-
-
 export default Details
-

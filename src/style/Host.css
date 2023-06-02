@@ -1,6 +1,5 @@
 .host{
       display: flex;
-      justify-content: flex-end;
       margin-right: 0;
       width: 150px;
 }
@@ -16,19 +15,22 @@ figcaption{
       font-size: 18px; 
       text-align: right;
       padding-right: 10px;
+      padding-top: 10px;
 }
 
 @media screen and (max-width: 768px){
 	.img-host{
             height: 32px;
-            width: 32px;
+            width: 32px;  
+      }
+      .host{
+            justify-content: flex-end;
            
       }
-      
       figcaption{
             font-size: 12px; 
             width: 60px;
-      }
-     
+            padding-top: 0;
+      } 
   }
 

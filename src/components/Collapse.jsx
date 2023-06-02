@@ -7,16 +7,13 @@ const Collapse = ({ content }) => {
     const [showReply, setShowReply] = useState(false);
     const { title, reply, equipments } = content;
     return (
-        <div className="accordeon">
-            <header className="btn-chevron">
+        <div className={ window.location.pathname =="/about" ? "accordeon"  : "accordeon-id"}>
+           
+            <header className="btn-chevron" onClick={() => setShowReply(!showReply)}>
                 <h3>{title}</h3>
-                <div
-                    
-                    // Toggle si vrai devient faux si faux devient vrai
-                    onClick={() => setShowReply(!showReply)}
-                    // Si montrer texte alors ChevronUp
-                >
-                    {/* si showReply est a true */}
+                <div>
+                    {/* Toggle si vrai devient faux si faux devient vrai
+                    si showReply est a true alors ChevronUp et montre texte*/}
                     <img
                         src={showReply ? ChevronUp : ChevronDown}
                         alt="close/open"
@@ -33,8 +30,8 @@ const Collapse = ({ content }) => {
                 <div className="about-content">
                     {equipments.map((equipment, index) => {
                         return (
-                            <ul className="list-equipment">
-                                <li className="list-equipment" key={index}>{equipment}</li>
+                            <ul className="list-equipment" key={index}>
+                                <li className="list-equipment" >{equipment}</li>
                             </ul> 
                         )
                          

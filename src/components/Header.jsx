@@ -1,5 +1,6 @@
 import logo from "../assets/logo.webp";
 import "../style/Header.css";
+import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
 function Header() {

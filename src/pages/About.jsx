@@ -1,4 +1,5 @@
 import "../style/About.css";
+import React from "react";
 import questions from "../data/questions.json";
 import Collapse from "../components/Collapse";
 import Header from "../components/Header";

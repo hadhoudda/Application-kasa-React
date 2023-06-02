@@ -1,4 +1,5 @@
 import '../style/Card.css';
+import React from "react";
 import { Link } from 'react-router-dom';
 
 function Card({card}){

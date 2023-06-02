@@ -1,6 +1,15 @@
 .about-container{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.accordeon{
+    width: 85%; 
+}
+
+
 @media screen and (max-width: 768px){
-  
+    .accordeon{
+        width: 100%;
+    }
 }

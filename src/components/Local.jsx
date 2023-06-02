@@ -1,4 +1,5 @@
 import '../style/Local.css';
+import React from "react";
 
 function Local({locationLocal}){
     return( 

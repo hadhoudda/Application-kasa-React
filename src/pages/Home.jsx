@@ -29,7 +29,7 @@ function Home() {
                         imgBan: true,
                     }}
                 />
-            <main className="cards">
+                <main className="cards">
                 {data &&
                     data.length > 0 &&
                     data.map((apart) => <Card card={apart} key={apart.id} />)}

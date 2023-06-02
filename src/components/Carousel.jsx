@@ -1,7 +1,6 @@
 import '../style/carousel.css';
 import React, { useState} from "react";
 
-
 const Carousel = ({ locationPictures}) => {
   const [index, setIndex] = useState(0);
   const imgPrev = () => {

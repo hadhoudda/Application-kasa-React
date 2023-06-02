@@ -4,8 +4,8 @@
       border-radius: 10px;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       padding: 0 10px 0 10px ;
-
 }
 
 h3{
@@ -14,22 +14,12 @@ h3{
       color:white;
 }
 
-.chevron{
-      position: relative;
-      top: 50%;
-     
-}
-
 .about-content{
       background: #F7F7F7;
       border-radius: 10px;
       font-weight: 400;
       font-size: 18px;
       padding: 20px;
-}
-
-.collapse-info{
-      width: 47%;
 }
 
 .list-equipment{
@@ -42,6 +32,7 @@ h3{
             height: 30px;
             border-radius: 5px;
             padding-bottom: 8px;
+           
       }
       h3{
             font-size: 13px;

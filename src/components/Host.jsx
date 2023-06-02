@@ -1,4 +1,5 @@
 import '../style/Host.css';
+import React from "react";
 
 function Host({locationHostPicture ,locationHostName}){
     return( 

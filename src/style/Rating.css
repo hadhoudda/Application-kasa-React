@@ -9,5 +9,7 @@
             height: 13px;
             padding-bottom: 15px;
       }
-
+      .star-container{
+            align-content: end;
+      }
   }
