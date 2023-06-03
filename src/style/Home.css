@@ -16,7 +16,8 @@
 	    grid-gap: 30px;
 	    padding: 20px;
 	}
-  }
+}
+
 @media screen and (max-width: 768px){
 	.cards{
 		background-color: white;
@@ -26,4 +27,4 @@
 		padding: 0;
 		width: 100%;
 	}
-  }
+}

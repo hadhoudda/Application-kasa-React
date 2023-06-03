@@ -15,7 +15,7 @@ const Carousel = ({ locationPictures}) => {
       <div className="container">
         { locationPictures &&
           locationPictures?.length>0 
-          && <img className='img-carousel' src={locationPictures[index]}  alt={"location Pictures in detail" }/>
+          && <img src={locationPictures[index]}  alt={"location Pictures in detail" }/>
           }
         {locationPictures?.length > 1 ? (
                 <div className="arrow">
@@ -30,6 +30,5 @@ const Carousel = ({ locationPictures}) => {
       </div>
     )
   }
-
 
 export default Carousel;

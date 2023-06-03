@@ -6,7 +6,6 @@
     transition: 0.5s all;
 }
 
-
 .card:hover {
     transform: scale(1.03);
     transition: 0.5s all;
@@ -37,8 +36,7 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) {    
     .card{
         height: 225px;
         width: 100%;

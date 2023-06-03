@@ -2,7 +2,7 @@
 body{
   max-width: 1440px ;
   min-width: 320px;
-  padding:40px 100px 0px 100px;
+  padding:20px 100px 0px 100px;
   font-family: 'Montserrat';
   font-style: normal;
 }
@@ -27,5 +27,4 @@ p{
 	body{
     padding:20px 20px 0 20px;
   }
-
 }

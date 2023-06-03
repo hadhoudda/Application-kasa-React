@@ -31,8 +31,7 @@ h3{
 	.btn-chevron{
             height: 30px;
             border-radius: 5px;
-            padding-bottom: 8px;
-           
+            padding-bottom: 8px;    
       }
       h3{
             font-size: 13px;
@@ -46,5 +45,4 @@ h3{
             font-size: 12px;
             padding: 10px;
       }
-
   }

@@ -31,7 +31,6 @@
     text-decoration: underline;
 }
 
-
 @media screen and (max-width: 768px){
     .header{
         margin-bottom: 15px;

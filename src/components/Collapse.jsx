@@ -8,7 +8,6 @@ const Collapse = ({ content }) => {
     const { title, reply, equipments } = content;
     return (
         <div className={ window.location.pathname =="/about" ? "accordeon"  : "accordeon-id"}>
-           
             <header className="btn-chevron" onClick={() => setShowReply(!showReply)}>
                 <h3>{title}</h3>
                 <div>
@@ -43,29 +42,3 @@ const Collapse = ({ content }) => {
 };
 
 export default Collapse;
-
-// import React,{ useState} from 'react';
-// import '../style/collapse.css';
-
-// const Collapse = ({titleCollapse}, {txtCollapse}) =>{
-      
-//         const [isOpen, setIsOpen] = useState(false)
-     
-//         return isOpen ? (
-//             <div className='lmj-cart'>
-//                 <i className="fa-sharp fa-solid fa-angle-up" onClick={() => setIsOpen(false)}></i>
-//                 <div>
-//                     <h3> {titleCollapse} </h3>
-//                     <p> {txtCollapse} </p>
-//                 </div>
-//             </div>
-//         ) : (
-//             <i className="fa-solid fa-angle-down" onClick={() => setIsOpen(true)}></i>
-            
-
-//         )
-//     }
-
-
-// export default Collapse
-

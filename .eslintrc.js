@@ -17,4 +17,7 @@ module.exports = {
     rules: {
         "react/prop-types":  ["off"],
     },
+    'ignorePatterns': [
+        '.eslintrc.js'
+    ],
 }
