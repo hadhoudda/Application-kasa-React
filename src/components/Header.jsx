@@ -7,7 +7,7 @@ function Header() {
     return (
         <header className="header">
             <div className="img-logo">
-                <Link to="/Application-kasa-React"><img src={logo} className="logo" alt="logo de kasa"/></Link>
+                <Link to="/Application-kasa-React/"><img src={logo} className="logo" alt="logo de kasa"/></Link>
             </div>
             <nav className="navbar">
                 <NavLink
@@ -15,7 +15,7 @@ function Header() {
                         isActive ? "nav-active nav-link" : "nav-link"
                     }
                     // end="/"
-                    to="/Application-kasa-React"
+                    to="/Application-kasa-React/"
                 >
                     Accueil
                 </NavLink>
