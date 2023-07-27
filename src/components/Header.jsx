@@ -14,7 +14,7 @@ function Header() {
                     className={({ isActive }) =>
                         isActive ? "nav-active nav-link" : "nav-link"
                     }
-                    end="/"
+                    // end="/"
                     to="/Application-kasa-React"
                 >
                     Accueil
@@ -23,7 +23,7 @@ function Header() {
                     className={({ isActive }) =>
                         isActive ? "nav-active nav-link" : "nav-link"
                     }
-                    end="about"
+                    // end="about"
                     to="/Application-kasa-React/about"
                 >
                     {" "}

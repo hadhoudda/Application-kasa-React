@@ -9,7 +9,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/Application-kasa-React/" element={<Home />} />
+                <Route exact path="/Application-kasa-React" element={<Home />} />
                 <Route path="/Application-kasa-React/about" element={<About />} />
                 <Route path="/Application-kasa-React/details/:id" element={<Details />} />
                 <Route path="/*" element={<NotFound />} />
