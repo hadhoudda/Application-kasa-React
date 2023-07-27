@@ -11,7 +11,7 @@ const NotFound = () => {
             <section className="notfound">
                 <p className="number">404</p>
                 <p className="txt-notfound">Oups! La page que vous demandez n&rsquo;existe pas.</p>
-                <Link to="/"><p className="txt-retour">Retourner sur la page d&rsquo;accueil</p></Link>
+                <Link to="/Application-kasa-React"><p className="txt-retour">Retourner sur la page d&rsquo;accueil</p></Link>
 
             </section>
             <Footer />

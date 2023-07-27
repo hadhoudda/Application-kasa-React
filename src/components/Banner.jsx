@@ -6,7 +6,7 @@ import imgAbout from "../assets/nature.webp";
 function Banner({ content }) {
     const {imgBan ,title} = content ;
     return (
-        <div className={ window.location.pathname =="/" ? "banner-home"  : "banner"} >
+        <div className={ window.location.pathname =="/Application-kasa-React" ? "banner-home"  : "banner"} >
             <h1 className="title-header">{title}</h1>
             <img
                 className="img-header"

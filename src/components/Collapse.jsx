@@ -7,7 +7,7 @@ const Collapse = ({ content }) => {
     const [showReply, setShowReply] = useState(false);
     const { title, reply, equipments } = content;
     return (
-        <div className={ window.location.pathname =="/about" ? "accordeon"  : "accordeon-id"}>
+        <div className={ window.location.pathname =="/Application-kasa-React/about" ? "accordeon"  : "accordeon-id"}>
             <header className="btn-chevron" onClick={() => setShowReply(!showReply)}>
                 <h3>{title}</h3>
                 <div>
