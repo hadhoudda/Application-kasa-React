@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Application-kasa-React/static/css/main.6a0136e5.css",
-    "main.js": "/Application-kasa-React/static/js/main.bf5bdb7e.js",
+    "main.js": "/Application-kasa-React/static/js/main.8f90d1f7.js",
     "static/js/787.0ce615c0.chunk.js": "/Application-kasa-React/static/js/787.0ce615c0.chunk.js",
     "static/media/nature.webp": "/Application-kasa-React/static/media/nature.14caa108afbfc60bd174.webp",
     "static/media/vague.webp": "/Application-kasa-React/static/media/vague.5393778ce8732b423b0a.webp",
@@ -11,11 +11,11 @@
     "static/media/Chevron_Down.svg": "/Application-kasa-React/static/media/Chevron_Down.4dfc3495cd10a7b5c2e22c0c09bd07c1.svg",
     "static/media/Chevron_Up.svg": "/Application-kasa-React/static/media/Chevron_Up.5b67d6bd7a3e6e318ee07573d5e87920.svg",
     "main.6a0136e5.css.map": "/Application-kasa-React/static/css/main.6a0136e5.css.map",
-    "main.bf5bdb7e.js.map": "/Application-kasa-React/static/js/main.bf5bdb7e.js.map",
+    "main.8f90d1f7.js.map": "/Application-kasa-React/static/js/main.8f90d1f7.js.map",
     "787.0ce615c0.chunk.js.map": "/Application-kasa-React/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a0136e5.css",
-    "static/js/main.bf5bdb7e.js"
+    "static/js/main.8f90d1f7.js"
   ]
 }
