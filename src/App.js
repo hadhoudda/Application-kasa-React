@@ -9,7 +9,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route exact path="https://hadhoudda.github.io/Application-kasa-React/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/details/:id" element={<Details />} />
                 <Route path="/*" element={<NotFound />} />
