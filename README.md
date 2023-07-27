@@ -1,6 +1,6 @@
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) https://github.com/hadhoudda/Application-kasa-React.git
 
-Lien site : https://hadhoudda.github.io/Kasa/
+Lien site : https://hadhoudda.github.io/Application-kasa-React/
 
 <p align="center">
   <img src="Profil-Kasa.png">
