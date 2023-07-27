@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) https://github.com/hadhoudda/Application-kasa-React.git
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lien site : https://hadhoudda.github.io/Kasa/
 
-## Available Scripts
+<p align="center">
+  <img src="Profil-Kasa.png">
+</p>
 
-In the project directory, you can run:
+## Tester en local le site et l'ensemble des fonctionnalités:
 
-### `yarn start`
+1. Clonez le dépôt: `git clone https://github.com/hadhoudda/Application-kasa-React.git`
+2. Installez les dépendances: `npm install`
+3. Démarrez l'application: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Créez une application web de location immobilière avec React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Kasa - Mise à jour d'un vieux site web en App React
 
-### `yarn test`
+## Scénario
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 
-### `yarn build`
+L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Un point est prévu avec la CTO plus tard dans la semaine, mais pour que vous puissiez vous familiariser avec les enjeux de votre mission, vous trouvez le récapitulatif suivant dans votre boîte mail :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Mail RECU
 
-### `yarn eject`
+Objet : Brief refonte site Kasa
+De : Laura
+À : Moi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Hello,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bienvenue pour ton premier jour !
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+On est vraiment ravis de te compter parmi nous !
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Tu vas pouvoir nous aider à donner vie à un chantier sur lequel on travaille depuis plusieurs mois.
 
-## Learn More
+Je préfère te mettre par écrit quelques éléments de contexte qui t'aideront à te projeter dans ta mission avant notre point de jeudi.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ton objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité !
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Back-end / data : Le recrutement de la personne en charge du back-end n'est pas terminé et va prendre plus de temps que prévu. Du coup, il va falloir que tu fasses sans pour le moment. Je t'ai extrait les 20 dernières annonces de logements dans ce fichier JSON pour que tu puisses construire le Front qui correspond.
+https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json
 
-### Code Splitting
+Contraintes techniques : Tu trouveras les coding guidelines de Kasa ici.
+https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Voilà, j'espère que ce petit récapitulatif t'aura donné suffisamment de pistes pour aborder sereinement tes premiers jours chez nous.
 
-### Analyzing the Bundle Size
+Très bonne journée à toi !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Laura
 
-### Making a Progressive Web App
+## Mail RECU par le designer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Objet : Fonctionnalité et design
 
-### Advanced Configuration
+De : Paul
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+À : Moi
 
-### Deployment
+Salut,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Bienvenue parmi nous ! Laura m’a dit de te briefer sur le design de la nouvelle version du site, alors voici les infos clés.
 
-### `yarn build` fails to minify
+Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Voici les maquettes sur Figma pour le design d’interface.
+https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=6-2&t=lyKSTISShbVhASmI-0
+J’ai l’habitude de travailler avec la logique de composants sur Figma ; Sandra m’a dit que ça te faciliterait le travail sur React. Tu trouveras toutes les ressources dont tu as besoin directement dans la maquette (logo, icônes pour les composants, etc.). Pour cela, il suffit de cliquer sur la ressource souhaitée et de faire "Exporter" au format voulu.
+
+Contraintes fonctionnelles
+
+Quelques précisions sur les fonctionnalités du site :
+
+Pour le défilement des photos dans la galerie (composant Gallery) :
+Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image.
+Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image.
+S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" ainsi que la numérotation n'apparaissent pas.
+La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.
+Collapse : Par défaut, les Collapses sont fermés à l'initialisation de la page.
+Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer.
+Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.
+
+Bon courage pour le développement, j’ai hâte de voir ce que ça va donner !
+
+Paul
+
+## 🛠 Skills
+
+React, React Router, API, JavaScript, CSS, Responsive Design
+
+# Hi, I'm HOUDA ! 👋
