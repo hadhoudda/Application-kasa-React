@@ -10,9 +10,9 @@ function App() {
         <Router>
             <Routes>
                 <Route exact path="https://hadhoudda.github.io/Application-kasa-React/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/details/:id" element={<Details />} />
-                <Route path="/*" element={<NotFound />} />
+                <Route path="https://hadhoudda.github.io/Application-kasa-React/about" element={<About />} />
+                <Route path="https://hadhoudda.github.io/Application-kasa-React/details/:id" element={<Details />} />
+                <Route path="https://hadhoudda.github.io/Application-kasa-React/*" element={<NotFound />} />
             </Routes>
         </Router>
     );
