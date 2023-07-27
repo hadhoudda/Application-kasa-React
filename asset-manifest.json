@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Application-kasa-React.git/static/css/main.6a0136e5.css",
-    "main.js": "/Application-kasa-React.git/static/js/main.7eebc2ed.js",
-    "static/js/787.0ce615c0.chunk.js": "/Application-kasa-React.git/static/js/787.0ce615c0.chunk.js",
-    "static/media/nature.webp": "/Application-kasa-React.git/static/media/nature.14caa108afbfc60bd174.webp",
-    "static/media/vague.webp": "/Application-kasa-React.git/static/media/vague.5393778ce8732b423b0a.webp",
-    "static/media/logo.webp": "/Application-kasa-React.git/static/media/logo.b27e3d635b72d1021614.webp",
-    "static/media/logo_black.webp": "/Application-kasa-React.git/static/media/logo_black.633b6f5f4809290ed694.webp",
-    "index.html": "/Application-kasa-React.git/index.html",
-    "static/media/Chevron_Down.svg": "/Application-kasa-React.git/static/media/Chevron_Down.4dfc3495cd10a7b5c2e22c0c09bd07c1.svg",
-    "static/media/Chevron_Up.svg": "/Application-kasa-React.git/static/media/Chevron_Up.5b67d6bd7a3e6e318ee07573d5e87920.svg",
-    "main.6a0136e5.css.map": "/Application-kasa-React.git/static/css/main.6a0136e5.css.map",
-    "main.7eebc2ed.js.map": "/Application-kasa-React.git/static/js/main.7eebc2ed.js.map",
-    "787.0ce615c0.chunk.js.map": "/Application-kasa-React.git/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/Application-kasa-React/static/css/main.6a0136e5.css",
+    "main.js": "/Application-kasa-React/static/js/main.bf5bdb7e.js",
+    "static/js/787.0ce615c0.chunk.js": "/Application-kasa-React/static/js/787.0ce615c0.chunk.js",
+    "static/media/nature.webp": "/Application-kasa-React/static/media/nature.14caa108afbfc60bd174.webp",
+    "static/media/vague.webp": "/Application-kasa-React/static/media/vague.5393778ce8732b423b0a.webp",
+    "static/media/logo.webp": "/Application-kasa-React/static/media/logo.b27e3d635b72d1021614.webp",
+    "static/media/logo_black.webp": "/Application-kasa-React/static/media/logo_black.633b6f5f4809290ed694.webp",
+    "index.html": "/Application-kasa-React/index.html",
+    "static/media/Chevron_Down.svg": "/Application-kasa-React/static/media/Chevron_Down.4dfc3495cd10a7b5c2e22c0c09bd07c1.svg",
+    "static/media/Chevron_Up.svg": "/Application-kasa-React/static/media/Chevron_Up.5b67d6bd7a3e6e318ee07573d5e87920.svg",
+    "main.6a0136e5.css.map": "/Application-kasa-React/static/css/main.6a0136e5.css.map",
+    "main.bf5bdb7e.js.map": "/Application-kasa-React/static/js/main.bf5bdb7e.js.map",
+    "787.0ce615c0.chunk.js.map": "/Application-kasa-React/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a0136e5.css",
-    "static/js/main.7eebc2ed.js"
+    "static/js/main.bf5bdb7e.js"
   ]
 }
