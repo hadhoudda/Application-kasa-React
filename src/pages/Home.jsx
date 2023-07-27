@@ -8,7 +8,7 @@ import Card from "../components/Card";
 function Home() {
     const [data, setData] = useState([]);
     const getData = async () => {
-        const response = await fetch("https://hadhoudda.github.io/Application-kasa-React/data.json", {
+        const response = await fetch("data.json", {
             headers: {
                 "Content-Type": "application/json",
                 Accept: "application/json",
