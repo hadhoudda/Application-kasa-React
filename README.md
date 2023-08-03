@@ -3,7 +3,7 @@
 Lien site : https://hadhoudda.github.io/Application-kasa-React/
 
 <p align="center">
-  <img src="Profil-Kasa.png">
+  <img src="Profil-Kasa.webp">
 </p>
 
 ## Tester en local le site et l'ensemble des fonctionnalités:
